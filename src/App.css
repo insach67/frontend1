@@ -1,0 +1,336 @@
+*{
+  text-decoration: none;
+}
+
+.the{
+  font-size: 30px;
+  transform: rotate(270deg);
+  margin-top: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navigation_bar{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  position: relative;
+  left:300px;
+  
+}
+
+.nav_catogory{
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+.nav_catogory:active{
+  color: white;
+  text-decoration: underline;
+}
+
+.horizontal1{
+  position: relative;
+  left: 300px;
+  width: 780px;
+}
+
+
+
+
+/* CSS FOR BLOG CONTENTS */
+.blogBody{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainCategory{
+  text-align: left;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.mainCategoryHr{
+  width: 190px;
+  background-color: red;
+  height: 2px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.blogContainer{
+  width: 550px;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blogImg{
+  width: 250px;
+  height: 220px;
+}
+
+.blogContent{
+  margin-left: 10px;
+  height: 220px;
+}
+
+.blogTitle{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  color: black;
+}
+
+.blogDetail{
+  color: rgb(117, 114, 114);
+  text-align: justify;
+}
+
+.blogCategory{
+  font-weight: 900;
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+}
+
+.blogLine{
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* CSS FOR TOP POST BLOG */
+.LatestContainer{
+  width: 420px;
+  height: 420px;
+}
+
+.LatestImg{
+  width: 420px;
+  height: 320px;
+}
+
+.flexBox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.LatestId{
+  font-size: 45px;
+  font-weight: 600;
+  color: silver;
+}
+
+
+
+.SubContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+}
+
+.SubImg{
+  width: 150px;
+  height: 150px;
+}
+
+
+
+/* CSS FOR ADVERTISEMENT */
+.advertisement{
+  border: 3px solid silver;
+  font-size: 30px;
+  font-weight: 600px;
+  height: 400px;
+  padding-top: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+/* CSS FOR HOME PAGE */
+/* TOP HOME COMPONENT CSS */
+.topHomeContainer{
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 20px;
+  height: 430px
+}
+
+.topHomeContainer-1{
+  /* border: 5px solid yellow; */
+  width: 70%;
+  margin-left: 8px;
+
+}
+
+.topHomeContainer-2{
+  /* border: 5px solid green; */
+  width: 30%;
+  margin-left: 15px;
+  margin-right: 6px;
+}
+
+.topHomeImg1{
+  width: 100%;
+  height: 100%;
+}
+
+.topHomeContent1{
+ position: absolute;
+ top: 450px;
+ left: 100px;
+ color: cyan;
+ 
+}
+
+.topHomeTitle1{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+
+
+.box{
+  position: relative;
+}
+
+.topHomeImg2{
+  width: 400px;
+  height: 205px;
+  margin-bottom: 15px;
+}
+
+.topHomeTitle2{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.topHomeContent2{
+  position: absolute;
+  top: 90px;
+  right: 80px;
+  color: white;
+  font-size: 16px;
+  width: 300px;
+}
+
+
+/* THE LATEST COMPONENT CSS */
+.TheLatestContainer{
+  margin-top: 60px;
+}
+
+.TheLatestBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.TheLatestContent{
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.TheLatestImg{
+  width: 400px;
+  height: 250px;
+}
+
+.title{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  height: 50px;
+}
+
+.body{
+  color: grey;
+  text-align: left;
+}
+
+.btn{
+  text-align: left;
+  color: black;
+  border-radius: 10px;
+  
+}
+
+/* THE LATEST STORIES CSS */
+.TheLatestStories{
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px
+}
+
+.TheLatestStoriesHr{
+  height: 220px;
+  margin-top: 40px;
+}
+
+
+
+/* CSS FOR ARTICLE COMPONENT*/
+.articleContainer{
+  width: 600px;
+  margin: auto auto;
+}
+
+.articleTitle{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.articleProfileImg{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.articleProfileBox{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.articleImg{
+  width: 600px;
+  height: 450px;
+  margin-top: 30px;
+}
+
+.MoreFromSirenContainer{
+  margin-top: 100px;
+  background-color: whitesmoke;
+}
+.Footer-Container{
+  display: flex;
+  justify-content: right;
+  color: dodgerblue;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
